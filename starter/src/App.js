@@ -3,6 +3,15 @@ import React, { useState } from 'react';
 export default function App() {
 	const questions = [
 		{
+			questionText: 'What is the capital of Germany?',
+			answerOptions: [
+				{ answerText: 'New York', isCorrect: false },
+				{ answerText: 'London', isCorrect: false },
+				{ answerText: 'Berlin', isCorrect: true },
+				{ answerText: 'Dublin', isCorrect: false },
+			],
+		},
+		{
 			questionText: 'What is the capital of France?',
 			answerOptions: [
 				{ answerText: 'New York', isCorrect: false },
